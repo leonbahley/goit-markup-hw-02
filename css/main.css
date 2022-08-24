@@ -1,0 +1,208 @@
+:root {
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --main-color: #757575;
+  --black-color: #212121;
+  --greyish-white: rgba(255, 255, 255, 0.6);
+  --logo-black-part: #000000;
+  --button-bkg: #f5f4fa;
+  --hero-block-bkg: #2f303a;
+}
+.list {
+  list-style: none;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--white-color);
+}
+/* Logo */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.black-logo-part {
+  color: var(--logo-black-part);
+}
+.white-logo-part {
+  color: var(--white-color);
+}
+/* Nav */
+.main-nav-link {
+  color: var(--black-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.studio-link-active,
+.portfolio-link-active {
+  color: var(--accent-color);
+}
+.e-mail-header,
+.tel-header {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.main-nav-link:focus,
+.main-nav-link:hover,
+.e-mail-header:focus,
+.e-mail-header:hover,
+.tel-header:focus,
+.tel-header:hover {
+  color: var(--accent-color);
+}
+
+/* Hero block */
+.hero-block {
+  background-color: var(--hero-block-bkg);
+}
+.hero-block-main-header {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.order-button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.features-secondary-header {
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.feature {
+  color: var(--main-color);
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+
+.specialties-main-header {
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Team */
+.team {
+  background-color: var(--button-bkg);
+}
+.team-main-header {
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.member-name {
+  color: var(--black-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.member-work {
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.page-footer {
+  background-color: var(--hero-block-bkg);
+}
+.street-name {
+  color: var(--white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.e-mail-footer,
+.tel-footer {
+  font-style: normal;
+  color: var(--greyish-white);
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.e-mail-footer:hover,
+.e-mail-footer:focus,
+.tel-footer:hover,
+.tel-footer:focus {
+  color: var(--accent-color);
+}
+
+/* Portfolio */
+.portfolio-button {
+  cursor: pointer;
+  background-color: var(--button-bkg);
+  color: var(--black-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.project-title {
+  color: var(--black-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+.project-descr {
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+}
